@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Thumbnail Grabber",
+    "version": "1.0",
+    "description": "Get HD YouTube thumbnails from video links.",
+    "permissions": ["contextMenus"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
